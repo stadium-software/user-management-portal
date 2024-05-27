@@ -20,14 +20,15 @@ An facility for the management of users across multiple Stadium applications
    3. Assign all application pages to the role
    4. Assign the "PortalAdmin" role to the admin user
 
-![SAM-UserAPIKey-Generation](images/SAM-UserAPIKey-Generation.png)
-
 ## Adding Applications
 
 1. Stadium Application Manager (SAM)
    1. Open the application you wish to add to the portal
    2. Go to the "User API" section
    3. Generate an API key
+
+![SAM-UserAPIKey-Generation](images/SAM-UserAPIKey-Generation.png)
+
 2. Portal
    1. Open the "Applications" page
    2. Select "Add Application"
