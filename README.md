@@ -6,7 +6,7 @@ An facility for the management of users across multiple Stadium applications
   - [Version](#version)
   - [Setup](#setup)
   - [Adding Applications](#adding-applications)
-  - [Application Authentication Methods](#application-authentication-methods)
+  - [Authentication Methods](#authentication-methods)
   - [Known Issues](#known-issues)
 
 ## Version 
@@ -51,7 +51,7 @@ An facility for the management of users across multiple Stadium applications
 
 ![Portal-Fetch-Users-Button](images/Portal-Fetch-Users-Button.png)
 
-## Application Authentication Methods
+## Authentication Methods
 
 **Email & Password**
 
