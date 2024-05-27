@@ -63,4 +63,4 @@ Alternatively, when users are added individually in the Portal, the temporary pa
 If your application access is controlled via an SSO server, it is advisable to also set up the Portal on the SSO server. 
 
 ## Known Issues
-None
+None as yet
