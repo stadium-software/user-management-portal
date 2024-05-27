@@ -20,6 +20,8 @@ An facility for the management of users across multiple Stadium applications
    3. Assign all application pages to the role
    4. Assign the "PortalAdmin" role to the admin user
 
+![Portal Create Admin Role](images/portal-create-role.png)
+
 ## Adding Applications
 
 1. Stadium Application Manager (SAM)
