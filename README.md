@@ -1,13 +1,12 @@
-# User Management Portal
+# User Management Portal <!-- omit in toc -->
 
-An facility for the management of users across multiple Stadium applications
+An application for the management of users across multiple Stadium applications
 
-- [User Management Portal](#user-management-portal)
-  - [Version](#version)
-  - [Setup](#setup)
-  - [Adding Applications](#adding-applications)
-  - [Authentication Methods](#authentication-methods)
-  - [Known Issues](#known-issues)
+- [Version](#version)
+- [Setup](#setup)
+- [Adding Applications](#adding-applications)
+- [Authentication Methods](#authentication-methods)
+- [Known Issues](#known-issues)
 
 ## Version 
 1.0 - initial
