@@ -17,9 +17,9 @@ An application for the management of users across multiple Stadium applications
 2. Create the SQL Server Database
    1. Add a database called "StadiumPortal"
    2. Run the script in the /database directory of this repo to create the database tables
-3. Upload the application in your Stadium Application Manager (SAM) and configure
-   1. Connection info
-   2. Remaining application configurations
+3. Upload the application in the /Stadium6 folder to your Stadium Application Manager (SAM) and configure
+   1. The connection info to the "StadiumPortal" database
+   2. Other application configurations
 4. Log into the Portal application
    1. Open the "Users & Roles" module
    2. Create a Role called "PortalAdmin"
