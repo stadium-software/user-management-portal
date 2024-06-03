@@ -3,15 +3,15 @@
 An application for the management of users across multiple Stadium applications
 
 - [Version](#version)
-- [Setup](#setup)
-- [Adding Applications](#adding-applications)
+- [Portal Setup](#portal-setup)
+- [Stadium Applications](#stadium-applications)
 - [Authentication Methods](#authentication-methods)
 - [Known Issues](#known-issues)
 
 ## Version 
 1.0 - initial
 
-## Setup
+## Portal Setup
 
 1. Clone this repo
 2. Create the SQL Server Database
@@ -28,7 +28,7 @@ An application for the management of users across multiple Stadium applications
 
 ![Portal Create Admin Role](images/portal-create-role.png)
 
-## Adding Applications
+## Stadium Applications
 
 1. Stadium Application Manager (SAM)
    1. Open the application you wish to add to the portal
@@ -58,13 +58,13 @@ An application for the management of users across multiple Stadium applications
 
 **Email & Password**
 
-When assigning users to Stadium applications in the Portal, a temporary password is generated for each user. However, for security reasons, the Portal database does not store these passwords and does not display them when assigning users in bulk. 
+When assigning users to Stadium applications in the Portal, an initial password is generated for each user. However, for security reasons, the Portal database does not store these passwords and does not display them when assigning users in bulk. 
 
-If some applications are set up to use "Email & Password" authentication and you wish to assign users to them in bulk, it is necessary to configure the "Email Settings" in the "Server -> Configuration" section of SAM. This will allow users to securely set up their own password using the "Forgot Password" facility on the application. 
+If some applications are set up to use "Email & Password" authentication and you wish to assign users to them in bulk, it is advisable to configure the "Email Settings" in the "Server -> Configuration" section of SAM. This will allow users to log into applications using the "Forgot Password" facility. 
 
 ![SAM-Email-Config](images/SAM-Email-Config.png)
 
-Alternatively, when users are added individually in the Portal, the temporary password is displayed in the Portal UI and can manually be sent to the respective user. 
+Alternatively, when users are added in the Portal, the initial password can manually be sent to the respective users. 
 
 ![password-generation](images/password-generation.png)
 
