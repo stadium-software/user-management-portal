@@ -44,9 +44,13 @@ An application for the management of users across multiple Stadium applications
    4. Add the base URL of the application (excluding the page name) to the Url field (e.g https://stadium.server.url/StadiumAppName/)
    4. Copy the API key generated in SAM to the "ApiKey" field
    5. Select the Authentication method of the application (more on [authentication methods](#application-authentication-methods))
-   6. Open the "Manage" page of the application
-   7. Select the "Fetch" button above the "Users" DataGrid to retrieve the application users and roles
-   8. NOTE: At present only roles assigned to users can be fetched using the "User API", so make sure all roles are assigned to at least one user
+
+![Portal Adding Applications](images/Portal-Add-Appplication.png)
+
+3. Users
+   1. Open the "Manage" page of the application
+   2. Select the "Fetch" button above the "Users" DataGrid to retrieve the application users and roles
+   3. NOTE: At present only roles assigned to users can be fetched using the "User API", so make sure all roles are assigned to at least one user
 
 ![Portal-Fetch-Users-Button](images/Portal-Fetch-Users-Button.png)
 
