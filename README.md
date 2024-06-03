@@ -1,6 +1,10 @@
 # User Management Portal <!-- omit in toc -->
 
-An application for the management of users across multiple Stadium applications
+This application serves three main purposes:
+
+1. Facilitating the management of users across multiple Stadium applications
+2. Enabling the bulk management of users
+3. Providing users with a dashboard containing all their Stadium applications
 
 - [Version](#version)
 - [Portal Setup](#portal-setup)
@@ -58,9 +62,9 @@ An application for the management of users across multiple Stadium applications
 
 **Email & Password**
 
-When assigning users to Stadium applications in the Portal, an initial password is generated for each user. However, for security reasons, the Portal database does not store these passwords and does not display them when assigning users in bulk. 
+When assigning users to Stadium applications in the Portal, an initial password is generated for each user. However, for security reasons, the Portal database does not store these passwords and they cannot be fetched using the User API. These are downloaded after generation and can be manually sent to the respective users. 
 
-If some applications are set up to use "Email & Password" authentication and you wish to assign users to them in bulk, it is advisable to configure the "Email Settings" in the "Server -> Configuration" section of SAM. This will allow users to log into applications using the "Forgot Password" facility. 
+For applications that are configured to use "Email & Password" authentication, it is advisable to configure the "Email Settings" in the "Server -> Configuration" section of SAM. This will allow users to define their own passwords using the "Forgot Password" facility. 
 
 ![SAM-Email-Config](images/SAM-Email-Config.png)
 
@@ -70,7 +74,7 @@ Alternatively, when users are added in the Portal, the initial password can manu
 
 **Single Sign-on (SSO)**
 
-If your application access is controlled via an SSO server, it is advisable to also set up the Portal on the SSO server. 
+If your application access is controlled via an SSO server, it is advisable to also set up the Portal on the SSO server.  
 
 ## Known Issues
 None as yet
