@@ -6,6 +6,8 @@ This application serves three main purposes:
 2. Enabling the bulk management of users
 3. Providing users with a dashboard containing all their Stadium applications
 
+## TOC <!-- omit in toc -->
+
 - [Version](#version)
 - [Portal Setup](#portal-setup)
 - [Stadium Applications](#stadium-applications)
