@@ -10,7 +10,7 @@ This application serves three main purposes:
 
 - [Version](#version)
 - [Portal Setup](#portal-setup)
-- [Stadium Applications](#stadium-applications)
+- [Adding Applications](#adding-applications)
 - [Authentication Methods](#authentication-methods)
 - [Known Issues](#known-issues)
 
@@ -34,7 +34,7 @@ This application serves three main purposes:
 
 ![Portal Create Admin Role](images/portal-create-role.png)
 
-## Stadium Applications
+## Adding Applications
 
 1. Stadium Application Manager (SAM)
    1. Open the application you wish to add to the portal
