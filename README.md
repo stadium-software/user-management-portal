@@ -20,7 +20,7 @@ This application serves three main purposes:
 ## Portal Setup
 
 1. Clone this repo
-2. Createg the SQL Server Database
+2. Create the SQL Server Database
    1. Add a database called "StadiumPortal"
    2. Run the script in the /database directory of this repo to create the database tables
 3. Preview the application
