@@ -2,9 +2,9 @@
 
 This application serves three main purposes:
 
-1. Facilitating the management of users across multiple Stadium applications
-2. Enabling the bulk management of users
-3. Providing users with a dashboard containing all their Stadium applications
+1. Facilitate the management of users across multiple Stadium applications
+2. Enable the bulk management of users
+3. Provide users with a dashboard containing all their Stadium applications
 
 ## TOC <!-- omit in toc -->
 
