@@ -69,15 +69,11 @@ This application serves three main purposes:
 
 **Email & Password**
 
-When assigning users to Stadium applications in the Portal, an initial password is generated for each user. However, for security reasons, the Portal database does not store these passwords and they cannot be fetched using the User API. These are downloaded after generation and can be manually sent to the respective users. 
+When assigning users to Stadium applications in the Portal, an initial password is generated for each user. However, for security reasons, the Portal database does not store these passwords. Instead, generated passwords are added to text files and pushed to the Portal admin user on generation. They can then be manually sent to the respective users. 
 
 For applications that are configured to use "Email & Password" authentication, it is advisable to configure the "Email Settings" in the "Server -> Configuration" section of SAM. This will allow users to define their own passwords using the "Forgot Password" facility. 
 
 ![SAM-Email-Config](images/SAM-Email-Config.png)
-
-Alternatively, when users are added in the Portal, the initial password can manually be sent to the respective users. 
-
-![password-generation](images/password-generation.png)
 
 **Single Sign-on (SSO)**
 
