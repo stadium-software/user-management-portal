@@ -20,13 +20,18 @@ This application serves three main purposes:
 ## Portal Setup
 
 1. Clone this repo
-2. Create the SQL Server Database
+2. Createg the SQL Server Database
    1. Add a database called "StadiumPortal"
    2. Run the script in the /database directory of this repo to create the database tables
-3. Upload the application in the /Stadium6 folder to your Stadium Application Manager (SAM) and configure
-   1. The connection info to the "StadiumPortal" database
-   2. Other application configurations
-4. Log into the Portal application
+3. Preview the application
+   1. Open the application in a Stadium Designer v6.9.3 or higher
+   2. Open 'Settings' in the Application Explorer and enter a connection string to the Database
+   3. Select 'Preview'
+4. Publish the application
+   1. Upload the application in the /Stadium6 folder to your Stadium Application Manager (SAM)
+   2. Configure the connection info to the "StadiumPortal" database
+   3. Configure other application details
+5. Access the Portal application
    1. Open the "Users & Roles" module
    2. Create a Role called "PortalAdmin"
    3. Assign all application pages to the role
