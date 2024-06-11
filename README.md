@@ -59,7 +59,7 @@ This application serves three main purposes:
 ![Portal Adding Applications](images/Portal-Add-Appplication.png)
 
 3. Users
-   1. Open the "Manage" page of the application
+   1. Open the "Import" page of the application
    2. Select the "Fetch" button above the "Users" DataGrid to retrieve the application users and roles
    3. NOTE: At present only roles assigned to users can be fetched using the "User API", so make sure all roles are assigned to at least one user
 
