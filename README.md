@@ -54,12 +54,8 @@ This application serves three main purposes:
    4. Copy the API key generated in SAM to the "ApiKey" field
    5. For Email Authenticated applications, check the "Generate Password" checkbox
 
-![Portal Adding Applications](images/Portal-Add-Appplication.png)
-
 3. Users Import
    1. Select "Import" on the "Users" page to fetch all users of Linked Applications
-
-![Portal-Fetch-Users-Button](images/Portal-Fetch-Users-Button.png)
 
 ## Authentication Methods
 
