@@ -16,6 +16,8 @@ This application serves three main purposes:
 ## Version 
 2.0 - made for Stadium version 6.12+ (go [here](/pre6.12/) for previous versions)
 
+2.1 Changed database table names & queries; updated modules from various repos; updated stylesheet css from px to rem
+
 ## Portal Setup
 
 1. Clone this repo
