@@ -12,6 +12,7 @@ This application serves three main purposes:
 - [Portal Setup](#portal-setup)
 - [Adding Applications](#adding-applications)
 - [Authentication Methods](#authentication-methods)
+- [Auditing](#auditing)
 
 ## Version 
 2.0 - made for Stadium version 6.12+ (go [here](/pre6.12/) for previous versions)
