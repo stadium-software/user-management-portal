@@ -18,6 +18,8 @@ This application serves three main purposes:
 
 2.1 Changed database table names & queries; updated modules from various repos; updated stylesheet css from px to rem
 
+2.2 Added auditing feature
+
 ## Portal Setup
 
 1. Clone this repo
@@ -74,3 +76,9 @@ When applications that are configured to use "Email & Password" authentication, 
 **Single Sign-on (SSO)**
 
 If your application access is controlled via an SSO server, it is advisable to also add the Portal to the SSO server.
+
+## Auditing 
+
+The auditing function for adding, updating and deleting users form application can be switched on or off in by setting a boolean value on the setting called "Audit". 
+
+![](images/Settings.png)
