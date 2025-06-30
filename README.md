@@ -1,10 +1,11 @@
 # User Management Portal <!-- omit in toc -->
 
-This application serves three main purposes:
+This application serves the following purposes:
 
 1. Facilitate the management of users across multiple Stadium applications
 2. Enable the bulk management of users
 3. Provide users with a dashboard containing all their Stadium applications
+4. Enable the viewing of application Audit Information
 
 ## TOC <!-- omit in toc -->
 
@@ -20,6 +21,8 @@ This application serves three main purposes:
 2.1 Changed database table names & queries; updated modules from various repos; updated stylesheet css from px to rem
 
 2.2 Added auditing feature
+
+2.3 Added Audit module
 
 ## Portal Setup
 
