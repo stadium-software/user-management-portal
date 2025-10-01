@@ -34,11 +34,12 @@ This application serves the following purposes:
    2. Run the script in the [database](/database/) directory of this repo to create the database tables
 3. Preview the application
    1. Open the application in a Stadium Designer v6.12 or higher
-   2. Open 'Settings' in the Application Explorer and provide the connection string to the "StadiumPortal" database
+   2. Open `Settings` in the Application Explorer and provide the connection string to the "StadiumPortal" database
    3. Select 'Preview'
 4. Publish the application
    1. Configure the connection info to the "StadiumPortal" database
    2. Configure other application details
+   3. Set the Portal application authentication method to Email or SSO
 5. Access the Portal application
    1. Open the "Users & Roles" module
    2. Create a Role called "PortalAdmin"
