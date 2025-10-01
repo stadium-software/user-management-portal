@@ -9,11 +9,11 @@ This application serves the following purposes:
 
 ## TOC <!-- omit in toc -->
 
-- [Version](#version)
-- [Portal Setup](#portal-setup)
-- [Adding Applications](#adding-applications)
-- [Authentication Methods](#authentication-methods)
-- [Auditing](#auditing)
+1. [Version](#version)
+2. [Portal Setup](#portal-setup)
+3. [Adding Applications](#adding-applications)
+4. [Authentication Methods](#authentication-methods)
+5. [Auditing](#auditing)
 
 ## Version 
 2.0 - made for Stadium version 6.12+ (go [here](/pre6.12/) for previous versions)
@@ -23,6 +23,8 @@ This application serves the following purposes:
 2.2 Added auditing feature
 
 2.3 Added Audit module
+
+2.4 Added some validations when adding applications
 
 ## Portal Setup
 
